@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/transfer-windows/static/css/main.f9884fb5.css",
-    "main.js": "/transfer-windows/static/js/main.99b8f409.js",
+    "main.js": "/transfer-windows/static/js/main.69a91629.js",
     "index.html": "/transfer-windows/index.html",
     "main.f9884fb5.css.map": "/transfer-windows/static/css/main.f9884fb5.css.map",
-    "main.99b8f409.js.map": "/transfer-windows/static/js/main.99b8f409.js.map"
+    "main.69a91629.js.map": "/transfer-windows/static/js/main.69a91629.js.map"
   },
   "entrypoints": [
     "static/css/main.f9884fb5.css",
-    "static/js/main.99b8f409.js"
+    "static/js/main.69a91629.js"
   ]
 }
