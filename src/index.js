@@ -11,10 +11,10 @@ import './index.css';
  * [ ]add to:anywhere box
  * [x]add transfer info box
  * [x]seed the planets with real data
- * [ ]add planet clipart
+ * [x]add planet clipart
  */
 
-//initial theta is theta at 1951/1/1
+//initial theta is from J2000
 const planets = [
     {displayName: 'Mercury',  initialTheta: (Math.PI/180)*252.251, distance: 0.38709893, period: '87.96926'},
     {displayName: 'Venus',  initialTheta: (Math.PI/180)*181.980, distance: 0.72333199, period: '224.7008'},
