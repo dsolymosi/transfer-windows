@@ -38,7 +38,7 @@ function Planet(props) {
   const xpos = props.distance*Math.cos(planetAngle(props.initialTheta, props.period, props.day));
   const ypos = props.distance*Math.sin(planetAngle(props.initialTheta, props.period, props.day));
   return (
-      <img style={{position:`fixed`, top: props.ymid-ypos-(height/2) + 'px', left: +props.xmid+xpos-(height/2) + 'px'}} draggable="false" height={height} src={`./`+props.displayName+`.png`} alt={props.displayName} title={props.displayName} />
+      <img style={{position:`fixed`, top: props.ymid-ypos-(height/2) + 'px', left: +props.xmid+xpos-(height/2) + 'px'}} draggable="false" height={height} src={`./`+props.displayName.toLowerCase()+`.png`} alt={props.displayName} title={props.displayName} />
 
   )
 }
